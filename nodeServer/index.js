@@ -76,6 +76,7 @@ console.log(request.query)
     }
   }
   result = JSON.stringify(result)
+  console.log(result)
 
   response.send(result)
 
